@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A21C58641E5785F700C9DF61 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21C58631E5785F700C9DF61 /* HomeController.swift */; };
+		A21C58661E57862D00C9DF61 /* NovaProvaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21C58651E57862D00C9DF61 /* NovaProvaController.swift */; };
+		A21C58681E57868700C9DF61 /* ListaProvasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21C58671E57868700C9DF61 /* ListaProvasController.swift */; };
+		A21C586A1E5786E700C9DF61 /* CorrigirProvaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21C58691E5786E700C9DF61 /* CorrigirProvaController.swift */; };
 		A2A41E5B1E56412400FA327C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A41E5A1E56412400FA327C /* AppDelegate.swift */; };
-		A2A41E5D1E56412400FA327C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A41E5C1E56412400FA327C /* FirstViewController.swift */; };
-		A2A41E5F1E56412400FA327C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A41E5E1E56412400FA327C /* SecondViewController.swift */; };
 		A2A41E621E56412400FA327C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A41E601E56412400FA327C /* Main.storyboard */; };
 		A2A41E641E56412400FA327C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2A41E631E56412400FA327C /* Assets.xcassets */; };
 		A2A41E671E56412400FA327C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A41E651E56412400FA327C /* LaunchScreen.storyboard */; };
@@ -35,10 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A21C58631E5785F700C9DF61 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		A21C58651E57862D00C9DF61 /* NovaProvaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NovaProvaController.swift; sourceTree = "<group>"; };
+		A21C58671E57868700C9DF61 /* ListaProvasController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaProvasController.swift; sourceTree = "<group>"; };
+		A21C58691E5786E700C9DF61 /* CorrigirProvaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CorrigirProvaController.swift; sourceTree = "<group>"; };
 		A2A41E571E56412400FA327C /* jaCorrigiuViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jaCorrigiuViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2A41E5A1E56412400FA327C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A2A41E5C1E56412400FA327C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		A2A41E5E1E56412400FA327C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		A2A41E611E56412400FA327C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2A41E631E56412400FA327C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2A41E661E56412400FA327C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -100,12 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				A2A41E5A1E56412400FA327C /* AppDelegate.swift */,
-				A2A41E5C1E56412400FA327C /* FirstViewController.swift */,
-				A2A41E5E1E56412400FA327C /* SecondViewController.swift */,
 				A2A41E601E56412400FA327C /* Main.storyboard */,
 				A2A41E631E56412400FA327C /* Assets.xcassets */,
 				A2A41E651E56412400FA327C /* LaunchScreen.storyboard */,
 				A2A41E681E56412400FA327C /* Info.plist */,
+				A21C58631E5785F700C9DF61 /* HomeController.swift */,
+				A21C58651E57862D00C9DF61 /* NovaProvaController.swift */,
+				A21C58671E57868700C9DF61 /* ListaProvasController.swift */,
+				A21C58691E5786E700C9DF61 /* CorrigirProvaController.swift */,
 			);
 			path = jaCorrigiuViews;
 			sourceTree = "<group>";
@@ -262,9 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2A41E5F1E56412400FA327C /* SecondViewController.swift in Sources */,
+				A21C586A1E5786E700C9DF61 /* CorrigirProvaController.swift in Sources */,
+				A21C58641E5785F700C9DF61 /* HomeController.swift in Sources */,
 				A2A41E5B1E56412400FA327C /* AppDelegate.swift in Sources */,
-				A2A41E5D1E56412400FA327C /* FirstViewController.swift in Sources */,
+				A21C58681E57868700C9DF61 /* ListaProvasController.swift in Sources */,
+				A21C58661E57862D00C9DF61 /* NovaProvaController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +515,7 @@
 				A2A41E831E56412400FA327C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2A41E841E56412400FA327C /* Build configuration list for PBXNativeTarget "jaCorrigiuViewsTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +524,7 @@
 				A2A41E861E56412400FA327C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2A41E871E56412400FA327C /* Build configuration list for PBXNativeTarget "jaCorrigiuViewsUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +533,7 @@
 				A2A41E891E56412400FA327C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
